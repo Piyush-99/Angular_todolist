@@ -1,0 +1,4 @@
+<div align="center">
+	<input style = "width: 60%; margin: 10px" class = "form-control" type="text" name="todotext" #text  (input) = "check($event)" />
+    <button [disabled] = "disabled" class="btn btn-primary" (click) = "onAdd(text.value)">Add</button>
+</div>   

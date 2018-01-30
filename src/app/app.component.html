@@ -1,0 +1,16 @@
+<p align="right">Made By: Piyush Parashar &copy;</p>
+<h1 class="text-center">
+  ToDo List
+</h1>
+<app-add></app-add>
+<div class="container">
+<div class="col-md-6 pull-left">
+	<app-list></app-list>
+</div>
+<div class="col-md-6 pull-right">
+	<h2 align="center">Done <span (click) = "removeAll()" ><i style="color: #d9534f" class="glyphicon glyphicon-trash"></i></span></h2>
+<app-done *ngFor = "let el of list"
+          [list] = "el"
+></app-done>
+</div>
+</div>
