@@ -10,3 +10,20 @@ HTML, CSS, Bootstrap, Angular
 Highlights
 
 1. Auto focus on the input field after addition of task to be done to make it easier for the user to add continuous tasks, one    after the another.
+2. No empty entry allowed
+
+# Screenshots
+
+![Screenshot](one.png)
+
+![Screenshot](two.png)
+
+![Screenshot](three.png)
+
+![Screenshot](four.png)
+
+![Screenshot](five.png)
+
+![Screenshot](six.png)
+
+![Screenshot](one.png)
